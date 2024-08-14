@@ -1,6 +1,6 @@
-# Description
-This evaluation script computes the Average Precision (AP) for 3D bounding box predictions at an IoU threshold of 0.5. <br/>
-In contrast to to KITTI, Waymo and NuScenes evaluation code, it accounts for full SO(3) rotation. 
+# EvalMono3D
+This evaluation script computes the Average Precision (AP) for 3D bounding box predictions at an IoU threshold of 0.5. In contrast to to KITTI, Waymo and NuScenes evaluation code, it accounts for full SO(3) rotation. Please find our project page here: 
+[CARLA Drone: Monocular 3D Object Detection from a Different Perspective](https://meier-johannes94.github.io/CDrone/)
 
 # Installation
 ```
