@@ -1,5 +1,5 @@
 # EvalMono3D
-This evaluation script computes the Average Precision (AP) for 3D bounding box predictions at an IoU threshold of 0.5. In contrast to to KITTI, Waymo and NuScenes evaluation code, it accounts for full SO(3) rotation. Please find our project page here: 
+This evaluation script computes the Average Precision (AP) for 3D bounding box predictions at an IoU threshold of 0.5. In contrast to KITTI, Waymo and NuScenes evaluation code, it accounts for full SO(3) rotation. Please find our project page here: 
 [CARLA Drone: Monocular 3D Object Detection from a Different Perspective](https://meier-johannes94.github.io/CDrone/)
 
 # Installation
@@ -16,7 +16,7 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 For further details on PyTorch3D installation: https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md
 
 
-# Minimal example with a single image and cars: 
+# Minimal example with a single image and cars
 ```
 python eval.py \
     --name cdrone_test_example \
@@ -34,7 +34,7 @@ Therefore, this code is also licenced under [CC-BY-NC 4.0](https://github.com/fa
 ```
 @article{meier2024cdrone,
   author    = {Meier, Johannes and Scalerandi, Luca and Dhaouadi, Oussema and Kaiser, Jacques and Araslanov Nikita and Cremers, Daniel},
-  title     = {CARLA Drone: Monocular 3D Object Detection from a Different Perspective},
+  title     = {{CARLA Drone:} Monocular 3D Object Detection from a Different Perspective},
   journal   = {GCPR},
   year      = {2024},
 }
